@@ -1,6 +1,7 @@
 Backspace String Compare - Leetcode Medium
 
-Question: Given 2 strings: s and t, return true if they are equal when typed into text editors.
+Question: 
+Given 2 strings: s and t, return true if they are equal when typed into text editors.
 '#' means a backspace character
 
 Solution:
@@ -19,4 +20,10 @@ Solution:
         - '#' element which means we increase the skip value by 1
         - skip > 0: which means we skip 1 element and decrease the skip value by 1
         - neither of the above two: in which case, we have our valid element
-        
+
+Time Complexity:
+O(S+T) = O(N)
+- S and T are lenghts of the strings s,t
+
+Space Complexity:
+O(1)        
