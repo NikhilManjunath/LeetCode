@@ -22,10 +22,17 @@ BFS:
 5. Now check for node + arr[node] and node - arr[node] IFF these two indices are within the array (0 <= i < len(arr))
 6. Return False if not possible
 
+Time Complexity: O(N)
+Space Complexity: O(N)
+
 DFS:
 1. Check if start index lies within the array (0 <= start < len(arr)). Als check if arr[start] >= 0 so that we dont visit the nodes already visited
 2. Check if arr[start] == 0. If yes, return True
 3. If not, set value of this node to its negative (arr[start] = -arr[start]) so that we do not visit again
 4. Repeat for start + arr[start] and start - arr[start]
 5. Return False if not possible
+
+Time Complexity: O(N)
+Space Complexity: O(N)
+
         
